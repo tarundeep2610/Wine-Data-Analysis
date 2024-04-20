@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+## Wine Data Analysis Task
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is aimed at calculating statistical measures of the Wine Data Set and displaying them as tables using React with Mantine v7.
 
-## Available Scripts
+### Technologies Used
+- TypeScript/JavaScript
+- React (CRA)
+- Yarn
+- Mantine v7
 
-In the project directory, you can run:
+### Task Description
+1. **Statistical Calculations:**
+   - Calculate class-wise mean, median, and mode of "Flavanoids" for the entire dataset.
+   - Calculate class-wise mean, median, and mode of "Gamma" based on a new property calculated for each data point.
 
-### `yarn start`
+2. **Implementation Details:**
+   - Utilize utility functions to compute statistical measures without third-party libraries.
+   - Display statistical results in React components as tabular data.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3. **Requirements:**
+   - Use TypeScript or JavaScript for development.
+   - Implement tables using Mantine v7.
+   - Ensure the project renders correctly upon running `yarn start`.
+   - Clean up unused code, CSS, test files, etc., to reduce clutter.
+   - Use Yarn instead of NPM.
+   - No additional libraries like Bootstrap, jQuery, or Lodash should be used.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Project Structure
+- **src/components/FlavonoidsTable.tsx**:
+  - Calculates and displays statistical measures for "Flavanoids".
+- **src/components/GammaTable.tsx**:
+  - Calculates and displays statistical measures for "Gamma" based on a derived property.
+- **src/components/Header.tsx**:
+  - Displays a header component with the title "Wine Data Analytics".
