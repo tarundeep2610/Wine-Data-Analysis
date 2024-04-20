@@ -12,7 +12,7 @@ This project is aimed at calculating statistical measures of the Wine Data Set a
 - **Flavonoids Table:**
   ![Flavonoids Table Screenshot](./public/Screenshot1.png)
 - **Gamma Table:**
-  ![Gamma Table Screenshot](./public/Screenshot1.png)
+  ![Gamma Table Screenshot](./public/Screenshot2.png)
 
 ## Installation
 
